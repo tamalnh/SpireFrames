@@ -1,0 +1,15 @@
+{
+  "brand": {
+    "name": "Spire Frames",
+    "shortName": "Spire",
+    "tagline": "An AI creative studio for premium brands.",
+    "email": "hello@spireframes.com"
+  },
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "Services", "href": "/services" },
+    { "label": "Portfolio", "href": "/portfolio" },
+    { "label": "Pricing", "href": "/pricing" },
+    { "label": "Contact", "href": "/#contact" }
+  ]
+}

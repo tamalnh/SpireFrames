@@ -1,0 +1,19 @@
+{
+  "eyebrow": "AI Creative Studio",
+  "headline": "Ultra-realistic ads, product visuals & social content — made with AI.",
+  "sub": "We craft cinematic campaigns and editorial-grade imagery for brands that refuse to look like everyone else.",
+  "primaryCta": { "label": "View our work", "href": "/portfolio" },
+  "secondaryCta": { "label": "Start a project", "href": "/#contact" },
+  "backgroundVideoId": "dQw4w9WgXcQ",
+  "rotatingWords": [
+    "Promo ads.",
+    "product visuals.",
+    "social films.",
+    "brand worlds."
+  ],
+  "stats": [
+    { "value": "120+", "label": "Campaigns shipped" },
+    { "value": "40", "label": "Brands served" },
+    { "value": "4.9", "label": "Avg. client rating" }
+  ]
+}

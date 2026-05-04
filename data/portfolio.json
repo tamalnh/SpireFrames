@@ -1,0 +1,186 @@
+[
+  {
+    "slug": "atelier-noir-fragrance",
+    "title": "Atelier Noir — Fragrance Film",
+    "client": "Atelier Noir",
+    "category": "Ad Campaign",
+    "year": "2025",
+    "youtubeId": "dQw4w9WgXcQ",
+    "summary": "A 30-second cinematic film for a luxury fragrance launch — entirely AI-generated, finished in-house.",
+    "intro": "A house known for its restraint asked us to translate a single word — patience — into thirty seconds of moving image. The result is a quiet, almost devotional film: glass, breath, amber light, and the suggestion of a body without ever showing one.",
+    "paragraphs": [
+      "The brief landed in late autumn. The perfumer had spent two years on the formula and wanted the launch film to feel like the scent itself: warm, slow, and a little secretive. We spent the first week not generating a single image — just listening, smelling, reading the brand's reference library, and writing.",
+      "From there we built three visual directions and carried one forward: an interior shot in winter light, with a single bottle catching late afternoon sun. Every hero frame was generated and re-generated until the glass behaved like glass — the small inaccuracies that betray AI imagery were chased out one by one in a five-pass refinement loop.",
+      "Motion was the final layer. We treated the still frames as plates, animated transitions between them with controlled camera moves, and graded the final piece in DaVinci Resolve to a custom score by an in-house composer. The film shipped on time and ran across paid social, the brand's homepage, and a 90-second cinema cut for selected European markets."
+    ],
+    "process": [
+      { "title": "Concept", "body": "We translated the perfumer's brief into three visual directions, anchored in scent memory and material texture." },
+      { "title": "Style frames", "body": "Twelve hero stills were generated, then graded against the brand's reference palette of bone, ash, and amber." },
+      { "title": "Motion", "body": "Selected frames were animated into seamless loops and edited to a custom score, then finished in DaVinci Resolve." },
+      { "title": "Delivery", "body": "Master file, six paid-social cutdowns, hero stills, and a 90s cinema cut delivered in a single drop." }
+    ],
+    "deliverables": ["30s hero film", "10s & 6s cutdowns", "12 hero stills", "Cinema 90s cut", "Social cutdowns"],
+    "gallery": [
+      { "src": "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1200&q=80", "alt": "Bottle on a marble surface", "caption": "Hero still 01 — late winter light" },
+      { "src": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1200&q=80", "alt": "Amber light pouring across glass", "caption": "Hero still 04 — amber pour" },
+      { "src": "https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=1200&q=80", "alt": "Detail of bottle cap and shadow", "caption": "Hero still 07 — closure detail" },
+      { "src": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1200&q=80", "alt": "Soft fabric against the bottle", "caption": "Hero still 09 — set dressing" }
+    ],
+    "quote": {
+      "text": "It's the first launch film we've made that I want to keep watching. They understood the brand before they touched a single tool.",
+      "author": "Camille Roux",
+      "role": "Creative Director, Atelier Noir"
+    },
+    "credits": [
+      { "role": "Direction", "name": "Spire Frames" },
+      { "role": "Composer", "name": "L. Marais" },
+      { "role": "Color", "name": "In-house" },
+      { "role": "Sound", "name": "Studio Bruit" }
+    ],
+    "featured": true
+  },
+  {
+    "slug": "verdant-skincare",
+    "title": "Verdant — Skincare Launch",
+    "client": "Verdant Co.",
+    "category": "Product Visuals",
+    "year": "2025",
+    "youtubeId": "5qap5aO4i9A",
+    "summary": "Botanical product story for a clean-skincare debut — twenty hero visuals across paid, organic, and PR.",
+    "intro": "Verdant launched in five markets simultaneously and needed a single visual world that would hold up across every channel — from a New York subway billboard to a Pinterest pin saved at 2am.",
+    "paragraphs": [
+      "The brand had a beautiful bottle and almost no imagery. We trained a small custom model on the bottle's geometry, label kerning, and brand color so that every generation produced a consistent product across hundreds of variations.",
+      "From there, art direction took over. We built three editorial 'rooms' — a sun-warmed kitchen, a tiled bathroom, a marble vanity — and shot the product in each one with the same lighting language across all twenty hero stills.",
+      "The launch performed 38% above the brand's paid-media benchmarks in week one, and the imagery has since been picked up by two retail partners for in-store display."
+    ],
+    "process": [
+      { "title": "Direction", "body": "Editorial direction inspired by Kinfolk and early-2000s minimalism." },
+      { "title": "Generation", "body": "Custom-trained model on the brand's bottle geometry and label typography for absolute consistency." },
+      { "title": "Finish", "body": "Color-graded in Capture One with subtle film grain to soften the AI signature." },
+      { "title": "Roll-out", "body": "Hand-off package included naming conventions, alt-text, and channel-specific crops." }
+    ],
+    "deliverables": ["20 hero stills", "5 motion loops", "Pinterest pack", "Retailer assets"],
+    "gallery": [
+      { "src": "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=1200&q=80", "alt": "Skincare bottle in soft window light", "caption": "Hero 02 — kitchen light" },
+      { "src": "https://images.unsplash.com/photo-1570194065650-d99fb4bedf0a?auto=format&fit=crop&w=1200&q=80", "alt": "Botanical leaves around the product", "caption": "Hero 06 — botanical detail" },
+      { "src": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=1200&q=80", "alt": "Hand reaching for the product", "caption": "Hero 11 — lifestyle" }
+    ],
+    "quote": {
+      "text": "We launched in five markets without flying anywhere. The imagery did the heavy lifting.",
+      "author": "Ines Park",
+      "role": "Founder, Verdant Co."
+    },
+    "credits": [
+      { "role": "Art Direction", "name": "Spire Frames" },
+      { "role": "Custom model", "name": "In-house" }
+    ],
+    "featured": true
+  },
+  {
+    "slug": "north-house-architecture",
+    "title": "North House — Property Reel",
+    "client": "North House",
+    "category": "Real Estate",
+    "year": "2024",
+    "youtubeId": "jNQXAC9IVRw",
+    "summary": "An AI-rendered architectural walkthrough for a development not yet broken ground.",
+    "intro": "Sometimes the building doesn't exist yet — and the marketing has to begin anyway. North House asked us to render a property they had only as drawings, into something a buyer could feel.",
+    "paragraphs": [
+      "Working from floor plans, material samples, and a moodboard, we produced eight interior frames that respected the architect's intent down to the cabinetry pulls.",
+      "We then sequenced those frames into a continuous camera move using AI motion interpolation, finishing with sound design that matched the building's intended quietness."
+    ],
+    "process": [
+      { "title": "Plan to image", "body": "Floor plans and material samples were translated into photoreal interior frames." },
+      { "title": "Walkthrough", "body": "Frames were sequenced into a continuous camera move using AI motion interpolation." },
+      { "title": "Sound", "body": "Custom ambient sound design matched the architect's intended quietness." }
+    ],
+    "deliverables": ["60s walkthrough", "8 hero stills", "Brochure assets"],
+    "gallery": [
+      { "src": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80", "alt": "Modern living room interior", "caption": "Living, north light" },
+      { "src": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80", "alt": "Kitchen detail", "caption": "Kitchen, morning" }
+    ],
+    "credits": [
+      { "role": "Direction", "name": "Spire Frames" },
+      { "role": "Architect", "name": "North House Studio" }
+    ],
+    "featured": false
+  },
+  {
+    "slug": "lumen-eyewear",
+    "title": "Lumen — Eyewear Drop",
+    "client": "Lumen",
+    "category": "Social Content",
+    "year": "2025",
+    "youtubeId": "ScMzIvxBSi4",
+    "summary": "A 14-day social rollout for a limited eyewear capsule — 36 deliverables, one consistent visual world.",
+    "intro": "A two-week capsule needed two weeks of imagery — and one visual story tying it all together. We built it around six AI-generated muses and three locations that each carried a different mood.",
+    "paragraphs": [
+      "Casting came first. We sketched six archetypes that mirrored Lumen's customer base, then generated and refined each muse until they felt like real people you might recognize from a film.",
+      "Each muse was photographed in three locations — desert, coast, and atelier — for a continuous multi-week story. Posts were sequenced so the rollout felt like an unfolding film, not a series of unrelated tiles."
+    ],
+    "process": [
+      { "title": "Casting", "body": "Six AI-generated muses chosen to mirror the brand's archetypes." },
+      { "title": "Series", "body": "Each muse photographed in three locations — desert, coast, and atelier — for a cohesive multi-week story." },
+      { "title": "Sequencing", "body": "Posts ordered to read as a film, with paid spots threaded between organic moments." }
+    ],
+    "deliverables": ["36 social posts", "8 reels", "Lookbook PDF"],
+    "gallery": [
+      { "src": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=1200&q=80", "alt": "Model wearing eyewear", "caption": "Muse 01 — desert" },
+      { "src": "https://images.unsplash.com/photo-1577803645773-f96470509666?auto=format&fit=crop&w=1200&q=80", "alt": "Eyewear close-up", "caption": "Detail — atelier" }
+    ],
+    "credits": [{ "role": "Direction", "name": "Spire Frames" }],
+    "featured": true
+  },
+  {
+    "slug": "mara-restaurant",
+    "title": "Mara — Menu Imagery",
+    "client": "Mara Restaurant",
+    "category": "Editorial",
+    "year": "2024",
+    "youtubeId": "9bZkp7q19f0",
+    "summary": "Seasonal menu imagery for a Michelin-listed restaurant — moody, painterly, and impossibly precise.",
+    "intro": "A chef who treats his menu like a poem doesn't want a food photographer. He wants a painter. We answered with eighteen still lifes in the style of seventeenth-century Dutch masters.",
+    "paragraphs": [
+      "We spent a day in the kitchen with the chef, tasting each course and writing notes on what each dish needed to feel like — not look like. Those notes became the prompts.",
+      "Eighteen plates were generated as still lifes, then printed at A2 and used both on the menu and as a small exhibition in the restaurant's entryway."
+    ],
+    "process": [
+      { "title": "Tasting", "body": "Spent a day with the chef to translate flavor notes into visual cues." },
+      { "title": "Plating", "body": "Each dish was generated as a still life in the style of 17th century Dutch painters." },
+      { "title": "Print", "body": "Final prints color-corrected for the restaurant's warm lighting." }
+    ],
+    "deliverables": ["18 dish stills", "Menu PDF", "Print assets"],
+    "gallery": [
+      { "src": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80", "alt": "Plated dish on dark surface", "caption": "Course 03" },
+      { "src": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=1200&q=80", "alt": "Dessert plating", "caption": "Course 11" }
+    ],
+    "credits": [{ "role": "Direction", "name": "Spire Frames" }, { "role": "Chef", "name": "T. Mara" }],
+    "featured": false
+  },
+  {
+    "slug": "kestrel-automotive",
+    "title": "Kestrel — Automotive Teaser",
+    "client": "Kestrel Motors",
+    "category": "Ad Campaign",
+    "year": "2025",
+    "youtubeId": "oHg5SJYRHA0",
+    "summary": "A 15-second teaser film for an EV reveal — built without a single physical shoot day.",
+    "intro": "A reveal teaser usually means a closed track, a six-figure shoot, and a month of post. We did it in three weeks with a team of four, and the only thing that was real was the brief.",
+    "paragraphs": [
+      "We pre-vis'd the reveal sequence with rough generations, locked the shot list, then refined hero shots in five passes for paint accuracy, reflection physics, and lens character.",
+      "The teaser broke on the brand's social channels and racked up 4.2M organic views in 72 hours. The full reveal followed two weeks later — also AI-led."
+    ],
+    "process": [
+      { "title": "Pre-vis", "body": "Storyboarded the reveal sequence with rough generations before locking the final shots." },
+      { "title": "Render", "body": "Hero shots refined in five passes for paint accuracy, reflection physics, and lens character." },
+      { "title": "Roll-out", "body": "Teaser → reveal sequencing planned with paid + earned channels." }
+    ],
+    "deliverables": ["15s teaser", "6 hero stills", "OOH assets"],
+    "gallery": [
+      { "src": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80", "alt": "Sleek car in studio light", "caption": "Hero 01" },
+      { "src": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=80", "alt": "Detail of headlight", "caption": "Detail — lamp" }
+    ],
+    "credits": [{ "role": "Direction", "name": "Spire Frames" }],
+    "featured": false
+  }
+]

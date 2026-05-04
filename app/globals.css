@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------- */
+/* Theme tokens — switched via [data-theme="dark"|"light"] on <html> */
+/* Both themes share the same Gold accent.                           */
+/* ---------------------------------------------------------------- */
+
+:root,
+[data-theme="dark"] {
+  --c-ink: 30 30 26;          /* #1E1E1A — page background */
+  --c-cream: 244 241 232;     /* #F4F1E8 — primary text */
+  --c-accent: 201 169 97;     /* #C9A961 — Gold */
+  --c-muted: 212 194 138;     /* #D4C28A — soft gold */
+  --c-surface: 38 38 33;      /* card/raised surface */
+  --c-surface-2: 48 48 41;    /* hover/raised surface */
+  /* Warm gold-tinted hairline (was pure cream).
+     Lower-saturation gold so borders read soft, never stark white. */
+  --c-hairline: 156 138 96;   /* #9C8A60 — warm gold-gray */
+  --shadow-soft: 0 30px 80px -40px rgb(0 0 0 / 0.6);
+}
+
+/* Light theme — softened. Background is a warm off-cream (not pure white),
+   text is a warm dark (not pure black), and surface tokens give cards
+   actual visibility. */
+[data-theme="light"] {
+  --c-ink: 239 234 217;       /* #EFEAD9 — warm off-cream background */
+  --c-cream: 42 40 32;        /* #2A2820 — warm dark text */
+  --c-accent: 153 117 51;     /* #997533 — readable Gold on cream */
+  --c-muted: 116 88 38;       /* #745826 — muted gold */
+  --c-surface: 230 222 200;   /* visible tonal surface */
+  --c-surface-2: 219 209 184; /* hover surface */
+  /* Warm dark-gold hairline for soft, readable borders on cream. */
+  --c-hairline: 122 95 50;    /* #7A5F32 — warm dark gold */
+  --shadow-soft: 0 24px 60px -40px rgb(42 40 32 / 0.18);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: rgb(var(--c-ink));
+  color: rgb(var(--c-cream));
+  /* Prevent horizontal scrollbars caused by decorative oversized type
+     (footer wordmark, marquees) breaking out of the viewport. */
+  overflow-x: clip;
+}
+
+body {
+  font-family: var(--font-montserrat), system-ui, sans-serif;
+  background-color: rgb(var(--c-ink));
+  color: rgb(var(--c-cream));
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: clip;
+  transition: background-color 600ms cubic-bezier(0.22, 0.61, 0.36, 1),
+              color 600ms cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+::selection {
+  background: rgb(var(--c-accent));
+  color: rgb(var(--c-ink));
+}
+
+a, button {
+  transition: color 250ms cubic-bezier(0.22, 0.61, 0.36, 1),
+              background-color 250ms cubic-bezier(0.22, 0.61, 0.36, 1),
+              border-color 250ms cubic-bezier(0.22, 0.61, 0.36, 1),
+              opacity 250ms cubic-bezier(0.22, 0.61, 0.36, 1),
+              transform 350ms cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@layer components {
+  .container-edge {
+    @apply mx-auto w-full max-w-[1280px] px-4 sm:px-6 md:px-8 lg:px-12;
+  }
+  .eyebrow {
+    @apply text-[10px] sm:text-xs uppercase tracking-wide-2 text-mist font-medium;
+  }
+  .display {
+    @apply font-serif font-light tracking-tight text-cream;
+  }
+  .btn-primary {
+    @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-full bg-sage px-6 py-3 text-sm font-medium text-ink transition-[transform,opacity] duration-300 ease-soft hover:opacity-90 hover:-translate-y-0.5 active:translate-y-0 sm:px-7;
+  }
+  .btn-ghost {
+    @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-full border border-hairline/30 px-6 py-3 text-sm font-medium text-cream transition-[transform,border-color] duration-300 ease-soft hover:border-sage hover:-translate-y-0.5 sm:px-7;
+  }
+  .link-underline {
+    @apply relative after:absolute after:left-0 after:-bottom-0.5 after:h-px after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full;
+  }
+  .card-soft {
+    @apply rounded-2xl border border-hairline/15 bg-surface p-6 sm:p-8 transition-all duration-500 hover:border-sage/40;
+  }
+  .surface-1 {
+    background-color: rgb(var(--c-surface));
+  }
+  .surface-2 {
+    background-color: rgb(var(--c-surface-2));
+  }
+  .hairline {
+    border-color: rgb(var(--c-hairline) / 0.15);
+  }
+}
+
+/* Focus */
+*:focus-visible {
+  outline: 2px solid rgb(var(--c-accent));
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: rgb(var(--c-ink)); }
+::-webkit-scrollbar-thumb { background: rgb(var(--c-surface)); border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: rgb(var(--c-accent) / 0.5); }
+
+/* Aperture rotation for the preloader logo */
+@keyframes lens-spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Marquee fade mask */
+.mask-fade-x {
+  -webkit-mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent);
+          mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent);
+}
+
+/* Reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

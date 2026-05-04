@@ -1,0 +1,7 @@
+[
+  { "id": "instagram", "label": "Instagram", "handle": "@spireframes", "href": "https://instagram.com/spireframes" },
+  { "id": "tiktok", "label": "TikTok", "handle": "@spireframes", "href": "https://tiktok.com/@spireframes" },
+  { "id": "dribbble", "label": "Dribbble", "handle": "spireframes", "href": "https://dribbble.com/spireframes" },
+  { "id": "behance", "label": "Behance", "handle": "spireframes", "href": "https://behance.net/spireframes" },
+  { "id": "linkedin", "label": "LinkedIn", "handle": "Spire Frames", "href": "https://linkedin.com/company/spireframes" }
+]

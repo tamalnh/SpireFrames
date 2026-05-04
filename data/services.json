@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ads",
+    "title": "AI Ad Campaigns",
+    "description": "Photoreal hero shots and motion ads that convert — from concept to delivery in days, not weeks.",
+    "icon": "spark"
+  },
+  {
+    "id": "product",
+    "title": "Product Visuals",
+    "description": "Studio-quality renders, lifestyle scenes, and 360 spins — without the studio.",
+    "icon": "cube"
+  },
+  {
+    "id": "social",
+    "title": "Social Content",
+    "description": "Scroll-stopping reels, carousels, and short-form video tuned to your brand voice.",
+    "icon": "wave"
+  },
+  {
+    "id": "branding",
+    "title": "Brand Worlds",
+    "description": "Distinct visual languages — moodboards, palettes, and style frames that travel across every channel.",
+    "icon": "compass"
+  },
+  {
+    "id": "editorial",
+    "title": "Editorial Imagery",
+    "description": "Magazine-grade imagery for lookbooks, lookpages, and luxury campaigns.",
+    "icon": "frame"
+  },
+  {
+    "id": "motion",
+    "title": "AI Motion",
+    "description": "Cinematic loops, idents, and short films generated and finished in-house.",
+    "icon": "play"
+  }
+]

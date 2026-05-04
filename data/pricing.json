@@ -1,0 +1,49 @@
+[
+  {
+    "id": "essentials",
+    "name": "Essentials",
+    "price": "$1,200",
+    "cadence": "per project",
+    "summary": "For founders and small brands launching a single campaign.",
+    "features": [
+      "Up to 8 hero visuals",
+      "1 round of revisions",
+      "Source files included",
+      "5-day delivery"
+    ],
+    "cta": { "label": "Start Essentials", "href": "/#contact" },
+    "featured": false
+  },
+  {
+    "id": "studio",
+    "name": "Studio",
+    "price": "$3,400",
+    "cadence": "per project",
+    "summary": "Our most popular package — for full campaigns across paid and organic.",
+    "features": [
+      "Up to 24 hero visuals",
+      "3 motion loops or 1 short-form film",
+      "2 rounds of revisions",
+      "Custom-trained brand model",
+      "10-day delivery"
+    ],
+    "cta": { "label": "Start Studio", "href": "/#contact" },
+    "featured": true
+  },
+  {
+    "id": "atelier",
+    "name": "Atelier",
+    "price": "From $7,500",
+    "cadence": "per month",
+    "summary": "Embedded creative partnership for brands shipping continuously.",
+    "features": [
+      "Unlimited concepts in queue",
+      "Weekly delivery cadence",
+      "Dedicated creative director",
+      "Full motion + stills coverage",
+      "Priority Slack channel"
+    ],
+    "cta": { "label": "Talk to us", "href": "/#contact" },
+    "featured": false
+  }
+]
