@@ -25,7 +25,9 @@ export const metadata: Metadata = {
   title: `${siteData.brand.name} — ${siteData.brand.tagline}`,
   description:
     "Spire Frames is an AI creative studio crafting ultra-realistic ads, product visuals, and social content for premium brands.",
-  metadataBase: new URL("https://spireframes.com"),
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://spireframes.com"
+  ),
   openGraph: {
     title: siteData.brand.name,
     description: siteData.brand.tagline,
